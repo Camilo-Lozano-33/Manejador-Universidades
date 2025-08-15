@@ -22,4 +22,5 @@ public class ServicioUniversidades {
     public List<Universidad> consultarTodos(){
         return this.repositorioUniversidad.findAll();
     }
+
 }

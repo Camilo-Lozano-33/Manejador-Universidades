@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @RestController
 @RequestMapping("/universidades")
-public class ControladorUniversidad {
+public class  ControladorUniversidad {
     @Autowired
     private ServicioUniversidades servicioUniversidades;
 
