@@ -15,12 +15,15 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 
+@Entity
 public class Mascota {
 
+    @Id
+
+    private Long id;
     private String color;
     private String nombre;
     private String raza;
     private String especie;
-    private int edad;
 
 }
